@@ -32,4 +32,4 @@ http.createServer( function (request, response) {
 }).listen(8087);
 
 // 控制台会输出以下信息
-console.log('Server running at http://127.0.0.1:8087/');
+console.log('Server running at http://127.0.0.1:8087/'); // 访问http://127.0.0.1:8087/index.html
