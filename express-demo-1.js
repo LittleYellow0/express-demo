@@ -1,8 +1,12 @@
 var express = require('express');
 var app = express();
  
-app.get('/', function (req, res) {
-   res.send('Hello World');
+app.get('/info', function (req, res) {
+   res.send({name: "kosen", age: 23});
+})
+
+app.get('/user', function (req, res) {
+   res.send({mobile: "18777961256", type: "02"});
 })
  
 var server = app.listen(8081, function () {
